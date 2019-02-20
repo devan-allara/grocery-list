@@ -1,14 +1,107 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "* ../node_modules@material/button/mdc-button";
+.wrapperShadow {
+  box-shadow: 3px 0 2px -1px rgba(0, 0, 0, 0.8), -3px 0 2px -1px rgba(0, 0, 0, 0.8);
+
+}
+#wrapper {
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 1000px;
+  color: rgb(84, 219, 106);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#groceryImage {
+  height: 550px;
+  width: 550px;
+}
+#banner{
+  margin-top: 0;
+  height: 100px;
+  background-color: rgb(84, 219, 106);
+  top:0;
+  padding-top:0;
+  position:relative;
+  margin:0;
+  box-shadow: black;
+  margin-bottom: 0;
+}
+#bannerText {
+  text-align: left;
+  vertical-align: bottom;
+  line-height: 150px;  
+  display: inline;
+  font-size: 40px;
+  color:  White;
+  margin-left: 20px;
+}
+#menuItem {
+  text-align: right;
+  vertical-align: bottom;
+  line-height: 150px;  
+  display: inline;
+  float: right;
+  color: white;
+
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+#menuItem:hover{
+  color: rgb(241, 245, 0);
+  text-decoration: underline;
+}
+
+#heroImage {
+  width: 50%
+
+}
+
+#groceryText{
+  vertical-align: center;
+
+  text-align: right;
+  line-height:80px;
+  color: rgb(84, 219, 106);
+  display:inline;
+  font-size: 70px;
+  margin-top: 90px;
+}
+#getStarted{
+  margin-top: 90px;
+  background-color: white;
+}
+
+#getStartedButton{
+  text-align: center;
+  margin-left: 14%;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(84, 219, 106);
+  font-size: 20px;
+  border: none;
+  text-decoration: underline;
+}
+#getStartedButton:active{
+  text-align: center;
+  margin-left: 14%;
+  background: rgb(84, 219, 106);
+  color: white;
+  font-size: 20px;
+  border: none;
+  text-decoration: underline;
+}
+h1 {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255,255,255)
+}
+img {
+  margin-top: 0;
+  width: 50%
 }

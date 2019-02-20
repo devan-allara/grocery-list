@@ -1,8 +1,9 @@
 {
-  "name": "react_review",
+  "name": "grocery_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material/button": "^0.44.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5"
